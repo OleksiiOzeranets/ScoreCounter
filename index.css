@@ -4,6 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family:'digital-clock-font';
+    background-image: none;
 } 
 .container {
     width: 400px;
