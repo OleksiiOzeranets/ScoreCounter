@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'digital-clock-font';
+} 
+.container {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(#007BFF,#00FFD0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+h3 {
+    color: #e5e5e5;
+    text-shadow: 0 0 2px black;
+    font-size: x-large;
+    
+}
+@font-face{
+    font-family:'DS-Digital';
+    src: url('./Fonts/DS-DIGI.TTF');
+   }
+button {
+    font-family: 'DS-Digital';
+    font-weight:bold;
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(#00FFD0,#007BFF);
+    color: #fca311;
+    text-shadow: 0 0 2px black;
+    border-radius: 10px;
+}
+button:hover {
+    background: #14213d;
+    border: 0 0 2px #14213d;
+}
+button:active {
+    border: 2px solid whitesmoke;
+}
+.scoreNumber {
+
+    font-family: 'DS-Digital';
+    color: #fca311;
+    background: #003049;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.scoreNumber:hover {
+    box-shadow: 0 0 50px white;
+}
+.space {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
